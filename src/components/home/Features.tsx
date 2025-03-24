@@ -1,5 +1,5 @@
 
-import { Map, Navigation, Clock, Star, Shield, UserCircle, BuildingLibrary, AlertTriangle } from 'lucide-react';
+import { Map, Navigation, Clock, Star, Shield, UserCircle, Building, AlertTriangle } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -19,7 +19,7 @@ const Features = () => {
       description: "Access real-time schedules, track buses and trains, and get estimated arrival times for seamless travel."
     },
     {
-      icon: <BuildingLibrary className="h-6 w-6 text-primary" />,
+      icon: <Building className="h-6 w-6 text-primary" />,
       title: "Attraction Discovery",
       description: "Discover nearby tourist places, restaurants, hotels, and shopping areas with user ratings and reviews."
     },
